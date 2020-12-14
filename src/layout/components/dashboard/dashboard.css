@@ -1,0 +1,107 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-container .boxes {
+  width: 97%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.dashboard-container .boxes .box {
+  width: 220px;
+  height: 220px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin: 1rem;
+  box-shadow: 3px 3px 15px lightgray;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border 0.3s ease-in-out;
+}
+
+.dashboard-container .boxes .box:nth-child(1) {
+  background-color: #da9b6518;
+}
+
+.dashboard-container .boxes .box:nth-child(2) {
+  background-color: #2cce6918;
+}
+
+.dashboard-container .boxes .box:nth-child(3) {
+  background-color: #dc646518;
+}
+
+.dashboard-container .boxes .box:nth-child(4) {
+  background-color: #63a9dc18;
+}
+
+.dashboard-container .boxes .box:nth-child(5) {
+  background-color: #e7b20018;
+}
+
+.dashboard-container .boxes .box .top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem 0;
+  width: 90%;
+}
+
+.dashboard-container .boxes .box .top i {
+  font-size: 15px;
+  color: #464646;
+  cursor: pointer;
+}
+
+.dashboard-container .boxes .box .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.dashboard-container .boxes .box .bottom i {
+  font-size: 40px;
+  color: #065db4;
+  margin-bottom: 10px;
+}
+
+.dashboard-container .boxes .box:nth-child(1) .bottom i {
+  color: #da9b65;
+}
+
+.dashboard-container .boxes .box:nth-child(2) .bottom i {
+  color: #2cce69;
+}
+
+.dashboard-container .boxes .box:nth-child(3) .bottom i {
+  color: #dc6465;
+}
+
+.dashboard-container .boxes .box:nth-child(4) .bottom i {
+  color: #63a9dc;
+}
+
+.dashboard-container .boxes .box:nth-child(5) .bottom i {
+  color: #e7b200;
+}
+
+.dashboard-container .boxes .box .bottom h1 {
+  font-weight: 500;
+}
+
+.dashboard-container .boxes .box .bottom p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #464646;
+}
