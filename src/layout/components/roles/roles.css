@@ -1,0 +1,132 @@
+.roles {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.roles .head {
+  margin: 0 0 50px;
+}
+
+.roles .head .breadcrumb {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  /* padding: 0.3rem; */
+}
+
+.roles .head .breadcrumb p,
+.roles .head .breadcrumb i {
+  margin: 0 5px;
+  color: #808080;
+}
+
+.roles .head .breadcrumb i {
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.roles .head .breadcrumb p {
+  font-size: 14px;
+}
+
+.roles .body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.roles .body .permissions h5 {
+  font-weight: 500;
+}
+
+.roles .body .permissions .permission-title {
+  margin-bottom: 20px;
+}
+
+.roles .body .permissions {
+  margin: 0 auto;
+}
+
+.roles .body .permissions .permission-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.roles .body .permissions .permission-list .permission-head {
+  display: flex;
+  align-items: center;
+}
+
+.roles .body .permissions .permission-list .permission-head .head-div {
+  padding: 1rem;
+  width: 150px;
+  background-color: #f4f4f4;
+}
+
+.roles .body .permissions .permission-list .permission-head .head-div h5 {
+  font-weight: bold;
+}
+
+.roles
+  .body
+  .permissions
+  .permission-list
+  .permission-head
+  .first-div.head-div {
+  width: 300px;
+  height: auto;
+  border: none;
+}
+
+.roles .body .permissions .permission-list .first-div {
+  width: 300px !important;
+  height: 60px;
+  border: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.roles .body .permissions .permission-list .first-div p {
+  font-size: 16px;
+}
+
+.roles .body .permissions .permission-list .permission-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.roles .body .permissions .permission-list .permission-body .row {
+  display: flex;
+  align-items: center;
+}
+
+.roles .body .permissions .permission-list .permission-body .row .switch-holder,
+.roles .body .permissions .permission-list .permission-body .row .null-holder {
+  width: 150px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #eee;
+  padding: 0 1rem;
+  /* justify-content: center; */
+}
+
+.roles
+  .body
+  .permissions
+  .permission-list
+  .permission-body
+  .row
+  .null-holder
+  p {
+  font-size: 12px;
+  padding: 0.1rem 0.2rem;
+  background-color: #ff8b06;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}

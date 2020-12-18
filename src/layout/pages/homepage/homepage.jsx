@@ -10,6 +10,7 @@ import DesignManufacturing from "../../components/designManufacturing/designManu
 import Process from "../../components/process/process";
 import LotDetails from "../../components/lotDetails/lotDetails";
 import "./homepage.css";
+import Roles from "../../components/roles/roles";
 
 export default class Homepage extends Component {
   constructor(props) {
@@ -40,6 +41,7 @@ export default class Homepage extends Component {
           {this.state.tab === 6 ? <DesignManufacturing /> : null}
           {this.state.tab === 7 ? <Process /> : null}
           {this.state.tab === 8 ? <LotDetails /> : null}
+          {this.state.tab === 9 ? <Roles /> : null}
         </div>
       </div>
     );

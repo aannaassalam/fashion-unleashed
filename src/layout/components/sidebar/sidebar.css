@@ -4,11 +4,13 @@
   overflow-x: hidden;
   background-image: linear-gradient(#102b6a, #0463bd);
   transition: width 0.3s;
+  z-index: 2;
 }
 
 .sidebar.shrink {
   width: 70px;
   transition: width 0.3s;
+  border-right: 0.5px solid navy;
 }
 
 .sidebar .items {

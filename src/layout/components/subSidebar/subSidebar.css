@@ -1,0 +1,47 @@
+.subSidebar {
+  height: 100%;
+  width: 200px;
+  overflow-x: hidden;
+  background-image: linear-gradient(#102b6a, #0463bd);
+  margin-left: -172px;
+  transition: margin 0.3s;
+}
+
+.subSidebar.active {
+  margin: 0;
+  transition: margin 0.3s;
+}
+
+.subSidebar .items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.subSidebar .items .item {
+  width: 100%;
+  height: 50px;
+  color: #567fc3;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  padding-left: 2rem;
+  border-left: 3px solid transparent;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+}
+
+.subSidebar .items .item:hover {
+  background-color: rgba(4, 100, 189, 0.493);
+  color: #d5dfed;
+}
+
+.subSidebar .items .item.active {
+  border-left: 3px solid #55acff;
+  color: #d5dfed;
+}
